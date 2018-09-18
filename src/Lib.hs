@@ -1,6 +1,6 @@
 module Lib
-    ( someFunc
+    ( printText
     ) where
 
-someFunc :: IO ()
-someFunc = putStrLn "someFunc"
+printText :: Int
+printText = 3
