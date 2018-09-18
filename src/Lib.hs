@@ -1,6 +1,7 @@
 module Lib
-    ( printText
+    ( defaultFunc, returnTypedParam
     ) where
 
-printText :: Int
-printText = 3
+defaultFunc = putStrLn "Story horsebox"
+
+returnTypedParam x = x
