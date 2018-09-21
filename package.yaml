@@ -35,6 +35,8 @@ executables:
     - -with-rtsopts=-N
     dependencies:
     - lca
+    - fgl
+    - containers
 
 tests:
   lca-test:
@@ -48,3 +50,4 @@ tests:
     - lca
     - hspec
     - QuickCheck
+    - fgl
