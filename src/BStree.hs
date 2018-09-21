@@ -1,6 +1,4 @@
-module BStree
-    (treeNode
-    ) where
+module BStree where
 
 -- define data type
 data Tree a = EmptyTree | Node a (Tree a, Tree a) deriving (Show, Read, Eq)
