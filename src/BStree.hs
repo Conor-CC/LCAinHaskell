@@ -84,9 +84,9 @@ treeRightRotate (Node y (Node x (alpha, beta), gamma)) = (Node x (alpha, Node y 
 >>>>>>> 3d9097c... Testing and functionality for lca algorithm
 
 
--- Code for BStree.hs sourced from https://gist.github.com/jason2506/2243143
+-- Code for BStree.hs above sourced from https://gist.github.com/jason2506/2243143
 
-
+-- named my lca as just 'lca' seems to clash with a Prelude function
 mylca :: (Ord a) => a -> a -> Tree a -> a
 mylca m n ~(Node v (l, r)) | n < v     = mylca m n l
                            | m > v     = mylca m n r
