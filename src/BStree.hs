@@ -77,11 +77,6 @@ treeLeftRotate (Node x (alpha, Node y (beta, gamma))) = Node y (Node x (alpha, b
 
 treeRightRotate :: Tree a -> Tree a
 treeRightRotate (Node y (Node x (alpha, beta), gamma)) = (Node x (alpha, Node y (beta, gamma)))
-<<<<<<< HEAD
-<<<<<<< HEAD
-=======
-=======
->>>>>>> 3d9097c... Testing and functionality for lca algorithm
 
 
 -- Code for BStree.hs above sourced from https://gist.github.com/jason2506/2243143
@@ -91,7 +86,3 @@ mylca :: (Ord a) => a -> a -> Tree a -> a
 mylca m n ~(Node v (l, r)) | n < v     = mylca m n l
                            | m > v     = mylca m n r
                            | otherwise = v
-<<<<<<< HEAD
->>>>>>> a106a41... Last commit got corrupted due to unexpected shutdown. Last changes were: Repaired repo with git-repair, added in lca tests and buil lca algorithm in BStree.hs
-=======
->>>>>>> 3d9097c... Testing and functionality for lca algorithm
