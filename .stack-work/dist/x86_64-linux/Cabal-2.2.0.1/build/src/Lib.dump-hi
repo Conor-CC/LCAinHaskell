@@ -1,0 +1,85 @@
+
+==================== FINAL INTERFACE ====================
+2018-09-21 20:46:11.221293455 UTC
+
+interface lca-0.1.0.0-qhAiKsH4BBFHBEvU3XyBo:Lib 8043
+  interface hash: 1528c05710a0e75f3f88d522d850c8d2
+  ABI hash: 31be78ed8ef92cca83d93273af9c5143
+  export-list hash: 2ad1a12ec53fb318513d9bf69fc8e2cc
+  orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
+  flag hash: 1f596daf84c7527444ae092b33472386
+  opt_hash: 14e536840aca4e889cad654e6f9b79c1
+  hpc_hash: 93b885adfe0da089cdf634904fd59f71
+  sig of: Nothing
+  used TH splices: False
+  where
+exports:
+  Lib.defaultFunc
+  Lib.returnPeriklesQuote
+module dependencies:
+package dependencies: base-4.11.1.0* ghc-prim-0.5.2.0
+                      integer-gmp-1.0.2.0
+orphans: base-4.11.1.0:GHC.Float base-4.11.1.0:GHC.Base
+family instance modules: base-4.11.1.0:Control.Applicative
+                         base-4.11.1.0:Data.Functor.Const
+                         base-4.11.1.0:Data.Functor.Identity base-4.11.1.0:Data.Monoid
+                         base-4.11.1.0:Data.Semigroup.Internal base-4.11.1.0:GHC.Generics
+                         base-4.11.1.0:GHC.IO.Exception
+import  -/  base-4.11.1.0:Control.Monad c5f960c67d822497578bffbd3e4c01cf
+import  -/  base-4.11.1.0:Prelude 0750c25585e2b797cd78291d423d39dd
+import  -/  base-4.11.1.0:System.IO 1c239be44126f7b1ba512ea61300f4dc
+df4d3dd42621d59fbeea2e25dceb9d1b
+  $trModule :: GHC.Types.Module
+  {- HasNoCafRefs, Strictness: m,
+     Unfolding: (GHC.Types.Module Lib.$trModule3 Lib.$trModule1) -}
+fac344906d23bc6fc7d79182a8cef2df
+  $trModule1 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Lib.$trModule2) -}
+31adc8e18a6f141ef8ddf747fb1321fa
+  $trModule2 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Lib"#) -}
+ba671230abc9813c67f6bc8d257509b0
+  $trModule3 :: GHC.Types.TrName
+  {- HasNoCafRefs, Strictness: m1,
+     Unfolding: (GHC.Types.TrNameS Lib.$trModule4) -}
+49f0f8377556312295e2a8abc1a4f407
+  $trModule4 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("lca-0.1.0.0-qhAiKsH4BBFHBEvU3XyBo"#) -}
+c8e5435bad1702fd297ad321884d3fb9
+  defaultFunc :: GHC.Types.IO ()
+  {- Arity: 1,
+     Unfolding: InlineRule (0, True, True)
+                Lib.defaultFunc1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
+31fe570f6be5775607aff744b16f618c
+  defaultFunc1 ::
+    GHC.Prim.State# GHC.Prim.RealWorld
+    -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
+  {- Arity: 1,
+     Unfolding: (GHC.IO.Handle.Text.hPutStr2
+                   GHC.IO.Handle.FD.stdout
+                   Lib.defaultFunc2
+                   GHC.Types.True) -}
+714a1f7bc7643a37c005243b965f2d98
+  defaultFunc2 :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString# Lib.defaultFunc3) -}
+e35e9d7eb42b61f40352dc387aba3980
+  defaultFunc3 :: GHC.Prim.Addr#
+  {- HasNoCafRefs, Unfolding: ("Story horsebox"#) -}
+d505c59f93449d05b70294a1b8219f23
+  returnPeriklesQuote :: [GHC.Types.Char]
+  {- Unfolding: (GHC.CString.unpackCString#
+                   Lib.returnPeriklesQuote1) -}
+7291d9c06d86913c875a4b145f0bd9a5
+  returnPeriklesQuote1 :: GHC.Prim.Addr#
+  {- HasNoCafRefs,
+     Unfolding: ("Judging happiness to be the fruit of freedom and freedom that of valour, we shall never shy from the dangers of war."#) -}
+vectorised variables:
+vectorised tycons:
+vectorised reused tycons:
+parallel variables:
+parallel tycons:
+trusted: safe
+require own pkg trusted: False
+
