@@ -22,6 +22,17 @@
   (major1) == 4 && (major2) == 11 && (minor) <= 1)
 #endif /* MIN_VERSION_base */
 
+/* package fgl-5.6.0.0 */
+#ifndef VERSION_fgl
+#define VERSION_fgl "5.6.0.0"
+#endif /* VERSION_fgl */
+#ifndef MIN_VERSION_fgl
+#define MIN_VERSION_fgl(major1,major2,minor) (\
+  (major1) <  5 || \
+  (major1) == 5 && (major2) <  6 || \
+  (major1) == 5 && (major2) == 6 && (minor) <= 0)
+#endif /* MIN_VERSION_fgl */
+
 /* package lca-0.1.0.0 */
 #ifndef VERSION_lca
 #define VERSION_lca "0.1.0.0"
