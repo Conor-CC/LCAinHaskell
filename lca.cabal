@@ -2,7 +2,7 @@
 --
 -- see: https://github.com/sol/hpack
 --
--- hash: 20e93ca772bd18d3662579db6614654e705f88e0d98602bfd79bcbcb3697c128
+-- hash: 037f9b8cf6d69692334fcf64f7a644c08474da3de5e66ec675afa348cc5b6e92
 
 name:           lca
 version:        0.1.0.0
@@ -47,6 +47,7 @@ executable lca-exe
   build-depends:
       base >=4.7 && <5
     , fgl
+    , graphite
     , lca
   default-language: Haskell2010
 

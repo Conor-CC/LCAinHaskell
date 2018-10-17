@@ -36,7 +36,7 @@ executables:
     dependencies:
     - lca
     - fgl
-
+    - graphite
 tests:
   lca-test:
     main:                Spec.hs
