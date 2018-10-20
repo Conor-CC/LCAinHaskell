@@ -37,6 +37,7 @@ executables:
     - lca
     - fgl
     - graphite
+    - hashable
 tests:
   lca-test:
     main:                Spec.hs

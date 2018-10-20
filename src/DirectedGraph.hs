@@ -1,24 +1,17 @@
 module DirectedGraph where
 
-import Data.Graph.Types
-import Data.Graph.DGraph
-import Data.Graph.DGraph.DegreeSequence
+data Graph a = EmptyGraph | Graph [(a,[a])] deriving (Show, Read, Eq) -- Graph is a list of origins paired with edgeends
 
+createGraph ::(Eq a, Num a) => [(a,[a])] -> Graph a
+createGraph [] = EmptyGraph
+createGraph a = Graph a
 
-myGraph :: DGraph Int ()
-myGraph = fromArcsList
-    [ 1 --> 4
-    , 1 --> 5
-    , 1 --> 9
-    , 2 --> 4
-    , 2 --> 6
-    , 3 --> 5
-    , 3 --> 8
-    , 3 --> 10
-    , 4 --> 5
-    , 4 --> 10
-    , 5 --> 8
-    , 6 --> 8
-    , 6 --> 9
-    , 7 --> 8
-    ]
+empty :: Graph a
+empty = Graph []
+
+insertVertex :: Eq a => a -> Graph a -> Graph a
+insertVertex = undefined
+
+insertEdge :: Eq a => (a,a) -> Graph a -> Graph a
+insertEdge = undefined -- insert edge in list of origin
+--do not forget to add origin, end if they don't exist

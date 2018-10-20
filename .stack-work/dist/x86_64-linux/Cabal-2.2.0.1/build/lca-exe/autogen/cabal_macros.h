@@ -33,6 +33,28 @@
   (major1) == 5 && (major2) == 6 && (minor) <= 0)
 #endif /* MIN_VERSION_fgl */
 
+/* package graphite-0.9.8.0 */
+#ifndef VERSION_graphite
+#define VERSION_graphite "0.9.8.0"
+#endif /* VERSION_graphite */
+#ifndef MIN_VERSION_graphite
+#define MIN_VERSION_graphite(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  9 || \
+  (major1) == 0 && (major2) == 9 && (minor) <= 8)
+#endif /* MIN_VERSION_graphite */
+
+/* package hashable-1.2.7.0 */
+#ifndef VERSION_hashable
+#define VERSION_hashable "1.2.7.0"
+#endif /* VERSION_hashable */
+#ifndef MIN_VERSION_hashable
+#define MIN_VERSION_hashable(major1,major2,minor) (\
+  (major1) <  1 || \
+  (major1) == 1 && (major2) <  2 || \
+  (major1) == 1 && (major2) == 2 && (minor) <= 7)
+#endif /* MIN_VERSION_hashable */
+
 /* package lca-0.1.0.0 */
 #ifndef VERSION_lca
 #define VERSION_lca "0.1.0.0"
@@ -177,7 +199,7 @@
 #endif /* MIN_TOOL_VERSION_strip */
 
 #ifndef CURRENT_COMPONENT_ID
-#define CURRENT_COMPONENT_ID "lca-0.1.0.0-ANtBTuMazoI5ZJFwJ2PMDa-lca-exe"
+#define CURRENT_COMPONENT_ID "lca-0.1.0.0-qgHlPYQUoa1BiFwWji8v6-lca-exe"
 #endif /* CURRENT_COMPONENT_ID */
 #ifndef CURRENT_PACKAGE_VERSION
 #define CURRENT_PACKAGE_VERSION "0.1.0.0"

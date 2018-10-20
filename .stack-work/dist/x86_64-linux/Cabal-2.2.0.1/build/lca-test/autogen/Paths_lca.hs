@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/home/conorclery/Desktop/Desktop/3rd Year/SoftwareEng/AssignmentOne/lca/.stack-work/install/x86_64-linux/lts-12.10/8.4.3/bin"
-libdir     = "/home/conorclery/Desktop/Desktop/3rd Year/SoftwareEng/AssignmentOne/lca/.stack-work/install/x86_64-linux/lts-12.10/8.4.3/lib/x86_64-linux-ghc-8.4.3/lca-0.1.0.0-BpgbljqnWCEIbjK5NOXnNR-lca-test"
+libdir     = "/home/conorclery/Desktop/Desktop/3rd Year/SoftwareEng/AssignmentOne/lca/.stack-work/install/x86_64-linux/lts-12.10/8.4.3/lib/x86_64-linux-ghc-8.4.3/lca-0.1.0.0-HCpLvlMlqmFHADZ1yMlgO9-lca-test"
 dynlibdir  = "/home/conorclery/Desktop/Desktop/3rd Year/SoftwareEng/AssignmentOne/lca/.stack-work/install/x86_64-linux/lts-12.10/8.4.3/lib/x86_64-linux-ghc-8.4.3"
 datadir    = "/home/conorclery/Desktop/Desktop/3rd Year/SoftwareEng/AssignmentOne/lca/.stack-work/install/x86_64-linux/lts-12.10/8.4.3/share/x86_64-linux-ghc-8.4.3/lca-0.1.0.0"
 libexecdir = "/home/conorclery/Desktop/Desktop/3rd Year/SoftwareEng/AssignmentOne/lca/.stack-work/install/x86_64-linux/lts-12.10/8.4.3/libexec/x86_64-linux-ghc-8.4.3/lca-0.1.0.0"
